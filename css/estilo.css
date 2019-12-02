@@ -1,0 +1,393 @@
+@charset "utf-8";
+
+/*---------------------- CSS PORTAL---------------------*/
+/*
+* {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    
+}
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+p {
+    font-family: 'Muli', sans-serif;
+}
+
+li a {
+    font-family: 'Advent Pro', sans-serif;
+    color: #000000;
+    font-size: 1.2em;
+    text-transform: uppercase;   
+      
+}
+.container{
+    margin-top: 140px;
+    background-color: #FFFAFA;
+}
+.icones img {
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+/*---------------------- Werica CSS ---------------------*/
+
+img {
+    max-width: 100%;
+}
+
+.figure{
+    width: 100%;
+    
+}
+
+.figure img{
+    width: 50%;    
+}
+
+.main-row {
+    margin-top: 3rem;
+}
+
+.popart_wrapper{
+    margin: 1rem;
+}
+
+.artistas-popart {
+    border-left: 6px solid #112E60;
+    ;
+}
+
+/*---------------------- Erwin CSS ---------------------*/
+
+.artigoinfo {
+    background-color: white;
+}
+
+
+.artigoinfo > .artigoobra1 {
+    float: left;
+    margin-right: 5%;
+}
+
+
+.artigoinfo > .artigoobra2 {
+    float: left;
+    margin-right: 5%;
+}
+
+.artigoinfo > .artigoobra3 {
+    float: left;
+}
+
+.ObrasCaras {
+    text-align: left;
+}
+
+.artigocale {
+    border: 1px solid black;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    background-color: white;
+}
+
+.artigoobra1 {
+    font-size: 0.8em;
+    text-align: justify;
+    /*border: 1px solid blue;*/
+    background-color: white;
+}
+
+.artigoobra2 {
+    
+    font-size: 0.6em;
+    text-align: justify;
+    /*border: 1px solid blue;*/
+    background-color: lightgray;
+    width: auto;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.h3index {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    background-color: black;
+    color: white;
+}
+.artigoIMG1, .artigoIMG2, .artigoIMG3, .artigoIMG4 {
+    background-color: white;
+    font-size: 0.9em;
+    text-align: justify;
+}
+.artigoIMG1 h4, .artigoIMG2 h4, .artigoIMG3 h4, .artigoIMG4 h4 {
+    color: blue;
+    font-size: 1.3em;
+}
+
+.artigoIMG1 img, .artigoIMG2 img, .artigoIMG3 img, .artigoIMG4 img {
+    width: 260px;
+    height: 300px;
+}
+
+#rotator{
+    border: 2px solid #CC0000;
+    overflow: hidden;
+    margin: 10px ;
+    padding:2px;
+    position: relative;
+    width: 260px;
+    height: 180px;
+}
+
+#rotator img{
+    border: 0;
+    width: 260px;
+    height: 180px;
+}
+
+#artigo2 {
+    /*margin-top: 1%;*/
+    padding-top: 3%;
+    background-color: white;
+}
+
+#artigo3 {
+    /*margin-top: 1%;*/
+    padding-top: 3%;
+    background-color: white;
+}
+
+.artigo3IMG1 img, .artigo3IMG2 img, .artigo3IMG3 img, .artigo3IMG4 img, .artigo3IMG5 img {
+    width: 260px;
+    height: 220px;
+}
+
+
+.texto_zoom:hover {
+    /*font-size:20px; /*aumenta o tamanho do link*/
+    /*color:#FF0000; /*muda a cor do texto do link*/
+    font-size: 1.4em;
+    background: black; /*muda a cor de fundo do link*/
+    color: white;
+    /*text-decoration:overline; /*coloca uma linha acima do texto*/
+    
+}
+.zoom {
+    /*overflow: hidden;*/
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.footerGeral{
+    /*display: block;*/
+    /*margin-left: 2px;*/
+    background-color: yellow;
+    width: auto;
+    /*width: 1320px;*/
+    /*margin-left: 5px;*/
+    
+}
+
+.footerBotoes {
+    margin-left: 5px;
+    /*float: left;*/
+    width: auto;
+    /*background-color: aqua;*/
+}
+
+.footerUL {
+    /*clear: both;
+    float: right;*/
+    font-size: 0.94em;
+    /*width: auto;*/
+    /*background-color: maroon;*/
+    text-align: right;
+    
+}
+
+.sect1 {
+    height: auto;
+    background-color: white;
+    width: auto;
+}
+
+.footerGeral .footerUL .footerULLI {
+    margin-left: 80px;
+    display: block;
+    /*float: right;*/
+    /*text-decoration: none;*/
+    color: green;
+    font-size: 1.1em;
+}
+
+.sect2 {
+    height: auto;
+    width: auto;
+    /*padding: 5% 5% 5% 5%;*/
+    /*background-color: lightcoral;*/
+}
+
+.sect3 {
+    color: blue;
+    margin-top: 10px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    height: auto;
+    width: auto;
+    /*background-color: lightsteelblue;*/
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+}
+
+.imgFC00 {
+    align-items: center;
+}
+
+.imgFC01 {
+    /*margin-left: 5%;*/
+    height: 140px;
+    width: 140px;
+    margin-left: 40%;
+}
+
+.regras01 {
+    padding: 1% 5px 1% 5px;
+    margin-left: 5px;
+    font-size: 0.9em;
+    background-color: white;
+    color: blue;
+    text-align: justify;
+    
+}
+
+.artigoexpr {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.artig_homeEXPR img {
+    height: 110px;
+    width: 110px;
+    border-radius: 8%;
+    border: 4px solid black;
+}
+
+.ArtistasObras figure {
+    float: left;
+    text-align: center;
+    margin-right: 4px;
+}
+
+.ArtistasObras img {
+    height: 220px;
+    width: 220px;
+    border-radius: 15%;
+    border: 4px solid black;
+}
+.artista1, .artista2, .artista3, .artista4, .artista5, .artista6, .artista7 {
+    /*border: 1px solid blue;*/
+
+}
+
+.IMGartista {
+    height: 100px;
+    width: 100px;
+}
+
+.imgHist01 {
+    width: 700px;
+    /*height: 200%;*/
+}
+
+/*.FaleCon01, .FaleCon02, .FaleCon03, .FaleCon04, .FaleCon05 {
+    float: left;
+}*/
+
+.aaarow .container {
+    background-color: white;
+}
+
+.faleconosco {
+    /*border: 1px solid blue;*/
+    display: block;
+    /*text-align: center;*/
+    margin:0 auto;
+    max-width: 600px;
+}
+
+.regras05 {
+    float: left;
+}
+
+hr {
+    height:3px;
+    border-width:100;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 0 0;
+    
+    /*background: transparent url(linha.jpg) center no-repeat;*/
+}
+
+.regrasNorma {
+    text-align: justify;
+    background-color: lightgray;
+    color: black;
+    font-size: 1.1em;
+
+}
+.RG02a {
+    padding: auto 10% auto 10%;
+    margin: 5% 5% 8% 5%;
+}
+
+/*---------------------- Kelvin CSS ---------------------*/
+
+
+/*---------------------- Jessica CSS ---------------------*/
+
+.card-j {
+    border-left: 6px solid #112E60;
+
+}
+.btn-j {
+    background-color: #112E60;
+    color: white;
+}
+.text-alert-j {
+    background-color: #112E60;
+    color: white;
+}
+
+/*---------------------- Ellen CSS ---------------------*/
+
+
+
+
